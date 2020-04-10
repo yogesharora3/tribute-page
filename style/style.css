@@ -90,17 +90,21 @@
     background-color:grey;
     color:white;
     font-size:23px;
-    padding:10px 0;
+    padding:10px 10px;
   }
   @media screen and (max-width:850px){
     .reward{
       grid-template-columns:auto;
       grid-template-rows:30% 70%;
       min-height:16px;
+      max-height:100%;
       height:auto;
     }
     .year{
       padding-top:0%;
+    }
+    .info{
+        font-size: initial;
     }
     blockquote{
       text-align:left;
